@@ -1,0 +1,185 @@
+{
+  "settings": {
+    "name": "Honey Spa",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#d19695",
+        "#c47483"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.1",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/5gwflel8c-e-128x112.png",
+    "noImageResize": "",
+    "uniqCompNum": 5,
+    "versionPublish": "4.9.1",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/5gwflel8c_e-960x842.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "<b>HONEY SPA</b>",
+          "text": "Твоя студия красоты<br>7 минут от м. Девяткино<br><br>Охтинская аллея, д 12",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://beauty.dikidi.ru/ru/record/171705\" data-toolbar=\"-mbrBtnMove\">Записаться онлайн</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#gallery1-4\" data-toolbar=\"-mbrBtnMove\">Наши сотрудники</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_styles": {
+            "B": {
+              "color": "#c47483",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": "0",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1222-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1222-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1221-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1221-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1223-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1223-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1227-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1227-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1224-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1224-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1225-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1225-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-4"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "Ohtinskay alley 12\n",
+              "placeId": "ChIJRVkNXkszlkYRDRNIacZgmjA",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-3"
+        },
+        {
+          "_params": {
+            "token": "3526126912.727bfe1.19813580aa4e46b1848cbd278d6ecb2a",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": 4,
+            "rows": "3",
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-black-outline btn-black\" href=\"#\" data-max-id=\"1954544197855906548_3526126912\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>Ещё публикации</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Расширения"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-1"
+        }
+      ]
+    }
+  }
+}
